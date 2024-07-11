@@ -64,6 +64,10 @@
    openssl pkcs12 -export -out client.p12 -inkey client.key -in client.crt
    ```
 
+5. #### Importar o certificado do cliente no navegador:
+   - **Chrome**: Vá para Configurações > Privacidade e segurança > Segurança > Gerenciar certificados > Importar.
+   - **Firefox**: Vá para Configurações > Privacidade e Segurança > Certificados > Ver certificados > Importar.
+   
 ## Passo 4: Configurar o NGINX
 
 1. #### Arquivo de Configuração:
