@@ -1,4 +1,4 @@
-FROM nginx
+FROM nginx:stable-alpine
 
 WORKDIR /certs
 COPY server.crt server.key ca.crt client.p12 /certs/
